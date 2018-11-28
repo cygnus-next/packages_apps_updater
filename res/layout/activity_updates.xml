@@ -57,7 +57,7 @@
                     tools:text="@string/snack_updates_check_failed" />
 
                 <TextView
-                    android:id="@+id/header_build_version"
+                    android:id="@+id/header_device_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/header_update_status"
@@ -65,6 +65,14 @@
                     android:paddingLeft="8dp"
                     android:textColor="?android:attr/textColorPrimary"
                     android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/header_build_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/header_device_name"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="12sp" />
 
                 <TextView
                     android:id="@+id/header_security_patch"
