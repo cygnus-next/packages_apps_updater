@@ -27,7 +27,7 @@ a JSON with the following structure:
 The `datetime` attribute is the build date expressed as UNIX timestamp.  
 The `filename` attribute is the name of the file to be downloaded.  
 The `id` attribute is a string that uniquely identifies the update.  
-The `romtype` attribute is the string to be compared with the `ro.cygnus.releasetype` property.  
+The `romtype` attribute is the string to be compared with the `ro.system.cygnus.releasetype` property.  
 The `size` attribute is the size of the update expressed in bytes.  
 The `url` attribute is the URL of the file to be downloaded.  
 The `version` attribute is the string to be compared with the `ro.cygnus.version` property.  

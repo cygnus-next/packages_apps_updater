@@ -43,7 +43,7 @@ public final class Constants {
     public static final String PROP_BUILD_VERSION_INCREMENTAL = "ro.build.version.incremental";
     public static final String PROP_DEVICE = "ro.cygnus.device";
     public static final String PROP_NEXT_DEVICE = "ro.updater.next_device";
-    public static final String PROP_RELEASE_TYPE = "ro.cygnus.releasetype";
+    public static final String PROP_RELEASE_TYPE = "ro.system.cygnus.releasetype";
     public static final String PROP_UPDATER_ALLOW_DOWNGRADING = "cygnus.updater.allow_downgrading";
     public static final String PROP_UPDATER_URI = "cygnus.updater.uri";
 
